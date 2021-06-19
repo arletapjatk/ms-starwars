@@ -67,7 +67,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.TOKEN_18 }}
         with:
           args: >
-            -Dsonar.organization=jakubpleban
+            -Dsonar.organization=arletapjatk
             -Dsonar.projectKey=ms-StarWars
           projectBaseDir: ./
 
